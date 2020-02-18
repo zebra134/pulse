@@ -5,29 +5,37 @@
 @media (max-width: 991px){
     .header{
         margin: 0 5px;
+        &__phone{
+            font-size: 17px;
+        }
     }
     .promo{
-        &__header{
-            margin-right: 5px;
-        }
-        &__subheader{
-            margin-right: 5px;
-        }
-        &__icons{
-            margin-right: 5px;
-        }
-        &__link{
-            margin-right: 5px;
-        }
+        padding-right: 5px;
     }
     .button{
-        &_main{
-            margin-right: 5px;
+        &_submit{
+            width: 290px;
         }
     }
     .advantages{
         &__subheader{
-            margin: 0 5px;
+            padding-left: 5px;
+        }
+    }
+    .title_left{
+        padding-left: 10px;
+    }
+    .feed-form{
+        padding-left: 10px;
+    }
+    .consultation{
+        &__descr{
+            padding-left: 10px;
+        }
+    }
+    .title{
+        &_left{
+            font-size: 30px;
         }
     }
 }
@@ -45,7 +53,7 @@
             }
         }
         &__phone{
-            font-size: 15px;
+            font-size: 14px;
         }
     }
     .advantages{
@@ -62,6 +70,12 @@
         &_main{
             width: 300px;
         }
+        &_submit{
+            width: 290px;
+        }
+    }
+    .feed-form{
+        width: 250px;
     }
 }
 @media (max-width: 575px){
